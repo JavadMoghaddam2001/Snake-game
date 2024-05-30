@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column-reverse;
+    height:100vh
+}
+
+div{
+   display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:row-reverse;
+    gap:20px
+}
+
+h1{
+  font-size:25px
+}
+
+canvas {
+  display: block;
+}
+
+
+button{
+  font-size:20px
+}
